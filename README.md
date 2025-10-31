@@ -1,5 +1,4 @@
-💹 Impact of Inflation Analysis
-🧭 Overview
+### Impact of Inflation Analysis Overview
 
 Inflation represents the rate at which the general price level of goods and services rises, leading to a decline in the purchasing power of money.
 This project explores the impact of inflation on the Indian economy, with a specific focus on how it affects exchange rates (INR/USD) compared to the inflation trends in the United States.
@@ -12,7 +11,7 @@ How inflation differentials influence currency depreciation
 
 Key macroeconomic insights derived from the inflation–exchange rate relationship
 
-🎯 Problem Statement
+## Problem Statement
 
 High or unpredictable inflation disrupts financial stability and erodes purchasing power.
 To understand this phenomenon better, we aim to:
@@ -23,21 +22,21 @@ Identify periods of high inflation volatility and their economic consequences.
 
 Explore comparative inflation dynamics between India and the U.S.
 
-📊 Datasets
+## Datasets
 
-FAOSTAT Data (FAOSTAT_data_en_11-27-2024.csv)
-Contains macroeconomic indicators such as consumer price indices and commodity prices.
+- FAOSTAT Data (FAOSTAT_data_en_11-27-2024.csv)
+ Contains macroeconomic indicators such as consumer price indices and commodity prices.
 
-Global Inflation Dataset (global_inflation_data.csv)
-Provides year-wise inflation rates for India and the United States.
+- Global Inflation Dataset (global_inflation_data.csv)
+ Provides year-wise inflation rates for India and the United States.
 
 Merged Dataset Columns:
-Column	Description
-Year	Year of record
-Exchange Rate (INR/USD)	Average annual exchange rate
-Inflation Rate (India)	Annual inflation rate in India (%)
-Inflation Rate (US)	Annual inflation rate in the United States (%)
-⚙️ Methodology
+- Column	Description
+- Year	Year of record
+- Exchange Rate (INR/USD)	Average annual exchange rate
+- Inflation Rate (India)	Annual inflation rate in India (%)
+- Inflation Rate (US)	Annual inflation rate in the United States (%)
+## Methodology
 1. Data Preprocessing
 
 Cleaned missing values and ensured consistent yearly data alignment.
@@ -66,8 +65,8 @@ Scatter plots to illustrate correlation.
 
 Highlighted key years (e.g., 2008 crisis, 2020 pandemic) where inflation significantly impacted currency value.
 
-🧩 Analysis & Findings
-📈 Exchange Rate Trend
+## Analysis & Findings
+### Exchange Rate Trend
 
 The INR/USD exchange rate has shown a steady upward trend, meaning the Indian Rupee has depreciated over time.
 
@@ -87,7 +86,7 @@ Much more stable, averaging around 2–3% annually.
 
 Sharp rise observed post-2020 due to pandemic-related supply shocks.
 
-🔄 Inflation–Exchange Rate Relationship
+### Inflation–Exchange Rate Relationship
 
 Strong positive correlation between India’s inflation rate and INR depreciation (r ≈ +0.78).
 
@@ -95,24 +94,24 @@ When India’s inflation exceeds U.S. inflation, the rupee tends to weaken.
 
 Suggests that inflation differentials play a critical role in determining currency strength.
 
-📘 Key Insights & Conclusions
+## Key Insights & Conclusions
 
-Inflation drives currency depreciation — High domestic inflation leads to weaker currency value relative to countries with lower inflation.
+- Inflation drives currency depreciation — High domestic inflation leads to weaker currency value relative to countries with lower inflation.
 
-India’s inflation is more volatile than that of developed economies, reflecting greater sensitivity to supply-side shocks.
+- India’s inflation is more volatile than that of developed economies, reflecting greater sensitivity to supply-side shocks.
 
-Exchange rate stability improves when inflation is kept under control (e.g., post-2015 RBI reforms).
+- Exchange rate stability improves when inflation is kept under control (e.g., post-2015 RBI reforms).
 
-U.S. inflation stability anchors global currency trends, indirectly influencing INR/USD movement.
+- U.S. inflation stability anchors global currency trends, indirectly influencing INR/USD movement.
 
-Policy implication: Maintaining moderate inflation (<6%) through effective monetary policy can help preserve rupee value and investor confidence.
 
-🧠 Tools & Technologies
 
-Python 3.x
+### Tools & Technologies
 
-Libraries: pandas, numpy, matplotlib, seaborn
+- Python 3.x
 
-Data Sources: FAOSTAT, World Bank, IMF, Global Inflation Databases
+- Libraries: pandas, numpy, matplotlib, seaborn
 
-Platform: Jupyter Notebook
+- Data Sources: FAOSTAT, World Bank, IMF, Global Inflation Databases
+
+- Platform: Jupyter Notebook
